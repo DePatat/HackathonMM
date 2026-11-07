@@ -6,8 +6,18 @@ body {
 	font-family: Roboto, Arial;
 	color: #F5F5F7;
 	
-	padding-top:2.5rem;
-	
+	padding :2.5rem 1rem 1rem 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+p {
+	margin: 0.5rem ;
+}
+
+img {
+	border-radius: 15px;
 }
 
 button {
@@ -22,6 +32,12 @@ button:hover {
 	color: #F5F5F7;
 	cursor: pointer;
 	
+}
+
+li {
+
+	margin: 0.5rem 0 0 0;
+
 }
 
 nav {
@@ -97,24 +113,20 @@ nav .section-2 .subpages .menu-link button.current:hover {
 	
 }
 
-main .content {
-	
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	
+.subtitle {
+
+	display: inline-block;
+	background-color: gray;
+	padding: .5rem;
+	border-radius: 10px;
+
 }
 
-main div.title-container {
-	
-	display: flex;
-	justify-content: center;
-	
-}
+article.content {
 
-main div.content {
-	
-	border: 10px;
-	box-shadow: 5px;
-	
+  display: block;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
