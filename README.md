@@ -37,3 +37,4 @@ The following external images were used in the website:
 2. [Quytech – Virtual Mirror](https://www.quytech.com/blog/wp-content/uploads/2018/07/Virtual-mirror-1024x576-1024x576.jpg)
 3. [Nanalyze – Augmented Reality / Pokémon GO](https://www.nanalyze.com/app/uploads/2016/07/Investing-in-AR-Pokemon-Go-teaser.jpg)
 4. [Meta VR Glasses – Lifestyle Image](https://storage.ghost.io/c/2a/2f/2a2f38f0-4b71-407a-9c7e-18a9e2541980/content/images/size/w1024/format/webp/2026/09/Meta-VR-Glasses---Lifestyle---Close-Up-1.jpg)
+5. [Image of an AR] (https://developer.apple.com/augmented-reality/)
