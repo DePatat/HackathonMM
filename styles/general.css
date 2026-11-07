@@ -1,0 +1,120 @@
+/* General styling for the website */
+
+body {
+	
+	background-color: #1C1C1D;
+	font-family: Roboto, Arial;
+	color: #F5F5F7;
+	
+	padding-top:2.5rem;
+	
+}
+
+button {
+	
+	background-color: transparent;
+	border: none;
+	color: #D2D2D2;
+}
+
+button:hover {
+	
+	color: #F5F5F7;
+	cursor: pointer;
+	
+}
+
+nav {
+	
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	background-color: rgba(18, 18, 18, 0.85);
+	
+	/* backdrop-filter blurs the content behind the navigation bar. Property discovered through Google Gemini */
+	backdrop-filter: blur(10px);
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 2.8rem;
+	
+	border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+	
+}
+
+/* They need to be flex so that their content can be in a row instead of a column */
+nav .section-1, .section-2 {
+	display: flex;
+}
+
+nav .section-1 {
+	
+	width: 50%;
+	padding-left: 2vw;
+
+}
+
+nav .section-1 .btn-title {
+	
+	font-size: 1.2rem;
+	font-weight: 600;
+	
+}
+
+nav .section-2 {
+	
+	width: 50%;
+	padding-right: 2vw;
+	justify-content: right;
+	
+}
+
+nav .section-2 .subpages {
+	
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+	
+}
+
+nav .section-2 button {
+	
+	font-size: 0.85rem;
+	font-weight: 300;
+	
+}
+
+nav .section-2 .subpages .menu-link button.current {
+	
+	color: #F5F5F7;
+	
+}
+
+nav .section-2 .subpages .menu-link button.current:hover {
+	
+	color: white;
+	
+}
+
+main .content {
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+main div.title-container {
+	
+	display: flex;
+	justify-content: center;
+	
+}
+
+main div.content {
+	
+	border: 10px;
+	box-shadow: 5px;
+	
+}
