@@ -6,10 +6,62 @@ body {
 	font-family: Roboto, Arial;
 	color: #F5F5F7;
 	
-	padding :2.5rem 1rem 1rem 1rem;
+	padding :2.5rem 1rem 0 1rem;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+
+main {
+
+	padding-bottom: 2.5rem;
+
+}
+
+footer {
+
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	background-color: rgba(18, 18, 18);
+	position: static;
+	bottom: 0;
+	left:0;
+	right: 0;
+	width: 100%;
+	height: 2.8rem;
+
+}
+
+/* They need to be flex so that their content can be in a row instead of a column */
+footer .section-1, .section-2 {
+	display: flex;
+}
+
+footer .section-1, .section-2 {
+	
+	width: 50%;
+	padding-left: 2vw;
+	color: #cdcdcd;
+	font-size: 0.85rem;
+	font-weight: 300;
+
+}
+
+footer .section-2 {
+	
+	width: 50%;
+	padding-right: 2vw;
+	justify-content: right;
+	
+}
+
+footer .section-2 .subpages {
+	
+	display: flex;
+	flex-direction: row;
+	gap: 12px;
+	
 }
 
 p {
@@ -115,10 +167,13 @@ nav .section-2 .subpages .menu-link button.current:hover {
 
 .subtitle {
 
-	display: inline-block;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: gray;
 	padding: .5rem;
 	border-radius: 10px;
+	max-width: 490px;
 
 }
 
