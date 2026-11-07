@@ -1,0 +1,26 @@
+.title-container {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+a {
+  color: #6d727e;
+}
+
+img{
+
+  width: 100%;
+  max-width: 600px;
+  
+}
+
+article.content {
+
+  display: block;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
